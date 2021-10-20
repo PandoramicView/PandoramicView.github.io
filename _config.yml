@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "default"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "sunrise", "dirt", "neon", "mint", "plum", "default"
 
 # Site Settings
 locale                   : "en-US"
@@ -21,9 +21,9 @@ title_separator          : "|"
 subtitle                 : "Doin' a try."
 name                     : "Elizabeth Shaw"
 description              : "Consolidated thoughts, work, and miscellany of Elizabeth Shaw, AKA Pandoramic: artist, animator, writer, doer of tries. Enter at the risk of encountering the author."
-url                      : "https://pandoramicview.icu/"
+url                      : "https://PandoramicView.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/PandoramicView.github.io"
-repository               : "PandoramicView/PandoramicView.github.io"
+repository               : # "PandoramicView/PandoramicView.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -59,9 +59,9 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true #, false (default)
 search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search_provider          : lunr # (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -101,30 +101,27 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  name             : "Pandoramic"
+  avatar           : "/assets/images/Pandoramic_ProfileImage_tp.png"
+  bio              : "Human, artist, animator, writer, doer of tries."
   location         : "Somewhere"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "DeviantArt"
+      icon: "fab fa-deviantart"
+      url: "https://www.deviantart.com/pandoramic"
+    - label: "Artstation"
+      icon: "fab fa-artstation"
+      url: "https://www.artstation.com/pandoramic"
+    - label: "Ko-fi"
+      icon: "fas fa-mug-hot"
+      url: "https://ko-fi.com/pandoramic"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/PandoramicView"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/PandoramicView/"
 
 # Site Footer
 footer:
@@ -248,22 +245,22 @@ whitelist:
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
+  type: jekyll-archives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-archives
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
@@ -283,7 +280,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
+      show_date: true
