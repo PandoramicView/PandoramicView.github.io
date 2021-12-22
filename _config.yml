@@ -102,26 +102,44 @@ analytics:
 # Site Author
 author:
   name             : "Pandoramic"
-  avatar           : "/assets/images/Pandoramic_ProfileImage_tp.png"
+  avatar           : "/assets/images/Pandoramic_ProfileImage.jpg"
   bio              : "Human, artist, animator, writer, doer of tries."
-  location         : "Somewhere"
-  email            :
+  #location         : "Somewhere"
   links:
-    - label: "DeviantArt"
+    - label: " DeviantArt"
       icon: "fab fa-deviantart"
       url: "https://www.deviantart.com/pandoramic"
-    - label: "Artstation"
+    - label: " Artstation"
       icon: "fab fa-artstation"
       url: "https://www.artstation.com/pandoramic"
-    - label: "Ko-fi"
-      icon: "fas fa-mug-hot"
-      url: "https://ko-fi.com/pandoramic"
-    - label: "GitHub"
+    - label: " Threadless"
+      icon: "fas fa-pencil-alt"
+      url: "https://pandoramic.threadless.com/"
+    - label: " Pinterest"
+      icon: "fab fa-pinterest-p"
+      url: "https://pin.it/2bk5hJO"
+    - label: " GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/PandoramicView"
-    - label: "Instagram"
+    - label: " Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/PandoramicView/"
+    - label: " Goodreads"
+      icon: "fab fa-goodreads"
+      url: "https://www.goodreads.com/user/show/144026969-pandoramicview"
+    - label: " Patreon"
+      icon: "fab fa-patreon"
+      url: "https://www.patreon.com/pandoramic"
+    - label: " Ko-fi"
+      icon: "fas fa-mug-hot"
+      url: "https://ko-fi.com/pandoramic"
+    - label: " PayPal"
+      icon: "fab fa-paypal"
+      url: "https://paypal.me/pandoramic?country.x=US&locale.x=en_US"
+    - label: " Wishlist"
+      icon: "fab fa-amazon"
+      url: "https://www.amazon.com/hz/wishlist/ls/LK6RI6DYAFKS?ref_=wl_share"
+
 
 # Site Footer
 footer:
@@ -271,7 +289,7 @@ compress_html:
     envs: development
 
 
-# Defaults
+# Defaults (YAML Front Matter)
 defaults:
   # _posts
   - scope:
@@ -285,3 +303,4 @@ defaults:
       share: true
       related: true
       show_date: true
+      
