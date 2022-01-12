@@ -1,8 +1,8 @@
 ---
 title: "2021 October Challenge"
 header:
-	image: assets/images/oct-21-postmortem_header.jpg
-	teaser: /assets/images/oct-21-postmortem_header_th.jpg
+ image: assets/images/oct-21-postmortem_header.jpg
+ teaser: /assets/images/oct-21-postmortem_header_th.jpg
 ---
 ## How did I do?
 

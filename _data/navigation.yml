@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Blog"
-    url: /posts/
+    url: /blog/
   # collection of links to my content-hosting sites
   - title: "Hub"
     url: /hub/
@@ -10,5 +10,5 @@ main:
     url: /challenges/
   - title: "About"
     url: /about/
-  - title: "Support"
+  - title: "Support My Work"
     url: /support/

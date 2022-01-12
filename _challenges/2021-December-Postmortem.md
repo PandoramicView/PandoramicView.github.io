@@ -1,8 +1,8 @@
 ---
 title: "2021 December Challenge Postmortem"
 header:
-	image: assets/images/dec-21-postmortem_header.jpg
-	teaser: /assets/images/dec-21-postmortem_header_th.jpg
+ image: assets/images/dec-21-postmortem_header.jpg
+ teaser: /assets/images/dec-21-postmortem_header_th.jpg
 ---
 ## How did I do?
 

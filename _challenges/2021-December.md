@@ -1,8 +1,8 @@
 ---
 title: "2021 December Challenge"
 header:
-	image: assets/images/dec-21_header.jpg
-	teaser: /assets/images/dec-21_header_th.jpg
+ image: assets/images/dec-21_header.jpg
+ teaser: /assets/images/dec-21_header_th.jpg
 ---
 ## What was it?
 

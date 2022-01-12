@@ -1,8 +1,8 @@
 ---
 title: "2021 October Challenge"
 header:
-	image: assets/images/oct-21_header.jpg
-	teaser: /assets/images/oct-21_header_th.jpg
+ image: assets/images/oct-21_header.jpg
+ teaser: /assets/images/oct-21_header_th.jpg
 ---
 ## What was it?
 

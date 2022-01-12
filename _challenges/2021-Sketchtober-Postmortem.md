@@ -1,8 +1,8 @@
 ---
 title: "2021 Sketchtober Challenge"
 header:
-	image: assets/images/2021-inktober-header.jpg
-	teaser: /assets/images/2021-inktober-header_th.jpg
+ image: assets/images/2021-inktober-header.jpg
+ teaser: /assets/images/2021-inktober-header_th.jpg
 ---
 ## How'd I do?
 
