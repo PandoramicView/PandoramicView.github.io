@@ -6,7 +6,7 @@ layout: single
 Links to some places that you can support me, if you like me and the things that I do and you're in a comfortable position to do so.
 
 ## Non-material Support:
-Showing up and interacting with the things that I make is rad. 
+Showing up and interacting with the things that I make is rad. If you know someone else who might appreciate it, share it. As cliched as it sounds, it's your way to have an impact... on my impact. 
 
 ## If you're looking to make a one-time donation:
 I imagine you'll want to use [Paypal](https://paypal.me/pandoramic?country.x=US&locale.x=en_US), although I believe the option is also available through [Patreon](https://www.patreon.com/pandoramic) and [Kofi](https://ko-fi.com/pandoramic). I get something like 95% of whatever you send.
