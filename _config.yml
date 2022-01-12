@@ -288,6 +288,14 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  hub:
+    output: true
+    permalink: /:collection/:path/
+  challenges:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults (YAML Front Matter)
 defaults:
@@ -303,4 +311,19 @@ defaults:
       share: true
       related: true
       show_date: true
-      
+  #_hub
+  - scope:
+      path: ""
+      type: hub
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  #_challenges
+  - scope:
+      path: ""
+      type: challenges
+    values:
+      layout: single
+      author_profile: true
+      share: true

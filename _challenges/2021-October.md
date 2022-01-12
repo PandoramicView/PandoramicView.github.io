@@ -1,0 +1,26 @@
+---
+title: "2021 October Challenge"
+header:
+	image: assets/images/oct-21_header.jpg
+	teaser: /assets/images/oct-21_header_th.jpg
+---
+## What was it?
+
+### Goals:
+- **Male Full Body:** 100
+- **Female Full Body:** 100
+- **Hands:** 75
+- **Feet:** 75
+- **Profile Heads:** 50
+
+Reference: https://www.pinterest.com/PandoramicView/human-forms-reference/
+Started from the bottom up.
+
+## Why this?
+
+This was my first real leap back into art after a few years of mixed-priorities and business. I decided to start off with an area where I'm relatively comfortable, but technically weak: sketching people. The intent that I outlined for myself was as follows:
+- Build a habit
+- Tackle some weaknesses
+- Shake off rust
+- Small win - it's not a full-power thing to be proud of, but it's proof to myself that I have the ability to show up and it's progress toward the sort of work ethic I'd like to embody
+- Build endurance and speed
