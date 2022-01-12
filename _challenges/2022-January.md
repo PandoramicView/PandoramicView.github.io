@@ -12,7 +12,7 @@ header:
 - **New Sketches:** 10/30
 
 Follow along on [DeviantArt](https://www.deviantart.com/pandoramic/gallery/81520721/01-22-challenge)
-Follow along on [Artstation]()
+Follow along on [Artstation](https://www.artstation.com/pandoramic/albums/5173225)
 
 ## Why this?
 
