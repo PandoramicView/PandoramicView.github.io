@@ -3,12 +3,12 @@ main:
   - title: "Blog"
     url: /blog/
   # collection of links to my content-hosting sites
-  - title: "Hub"
+  - title: "Everything Else"
     url: /hub/
   # collection of posts that outline my challenges and follow-ups at the end
-  - title: "Challenges"
-    url: /challenges/
+  #- title: "Challenges"
+  #  url: /challenges/
   - title: "About"
     url: /about/
-  - title: "Support My Work"
+  - title: "Support"
     url: /support/

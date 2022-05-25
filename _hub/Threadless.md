@@ -2,7 +2,7 @@
 title: "Threadless"
 excerpt: "My designs on things that can be tangible."
 header:
-  image: /assets/images/threadless_SS_full.jpg
-  teaser: /assets/images/threadless_SS_th.jpg
+  image: /assets/images/pencil-solid.svg
+  teaser: /assets/images/pencil-solid.svg
 link: https://pandoramic.threadless.com/
 ---
