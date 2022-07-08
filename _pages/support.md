@@ -21,10 +21,17 @@ Head to my [Threadless Shop](https://pandoramic.threadless.com/) and see if anyt
 
 I chose Threadless because they appear to have a variety of good quality items that I'd like to design for, but if you find that the shit is whack, let me know and I'll figure something else out. I'm also giving Society6 the side-eye because they let you put your ideas onto household items, too, but that's not online yet.
 
+{% capture notice %}
+**P.S.** If you have a suggestion for an alternative put-designs-on-items website, I'm open to it - please leave a comment below.
+{% endcapture %}
+<div class="notice--info">{{ notice | markdownify }}</div>
+
 ## If you want to get me something tangible:
 Feel free to peruse my [wishlist](https://www.amazon.com/hz/wishlist/ls/LK6RI6DYAFKS?ref_=wl_share) or send me a message if you want to buy me [something I designed](https://pandoramic.threadless.com/) to make arrangements. 
 
 ## What happens when you do any of the above?
-I experience existential dread, but also warm-fuzzies. 
+I experience a trade-secret mix of existential dread and big warm-fuzzies. 
 
-To be honest, I don't have a great relationship with receiving material support from others, but I'm working on figuring that out. At the end of the day, all I want is the freedom to keep pursuing my projects, and support freely given is support humbly appreciated. I do my best to be frugal and manage myself well, and that's what I rely on to carry me forward.
+To be honest, it feels a little weird to accept material support from others, but I'm an idealist and I think that the economic ecosystem of patronage is a cool way to make meaningful progress past the "meaningless job for wages" stage of capitalism. 
+
+At the end of the day, all I want is the freedom to keep pursuing my projects, and support freely given is support humbly appreciated. I do my best to be frugal and manage myself well, and that's what I rely on to carry me forward.

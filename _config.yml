@@ -24,38 +24,19 @@ description              : "Consolidated thoughts, work, and miscellany of Eliza
 url                      : "https://PandoramicView.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/PandoramicView.github.io"
 repository               : # "PandoramicView/PandoramicView.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/default_thoughts_th.jpg"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
-  giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+  provider               : "staticman_v2"
   staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+    branch               : "master"
+    endpoint             : "https://pandoramic-view-staticman.herokuapp.com/v3/entry/github/"
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey                : 6LeSuNEgAAAAADeeY-jgJm6fatOIkHsJaaVpMDVM
+  secret                 : WEsoCNYDu2ilTNqNjnmveta6F0IE+ggorCm1MgeJn4WsnSlRvuqX0YD8fvw8wplhqh+VRuFGgBdX4a24cdnOB2ikpkFDBTpJ5vWZ4rZH7rm65WwhD3XnGU6NeCZzzKdB6avOAhF4l39QMHkpjd4ohePr0JAlNJQAkUcqxLUDoR87MPdFUDnqSqKWl85Y/+Fm6TYMGm2jPjesjAaJG2JhNVSTIqlsxtkW7s/kaFVOOShZ20sOAc4qQcliSuvgEEZhk1etk9bgotbmM9jsmONNFzDxYF//a+egpDteiILYA1U4K5bLLo+Wa3MLfItc21mwuC/8ISSVKTNg33CQvVV/Ug==
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
@@ -112,6 +93,12 @@ author:
     - label: " Artstation"
       icon: "fab fa-artstation"
       url: "https://www.artstation.com/pandoramic"
+    - label: " Art Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/pandoramicart/"
+    - label: " Discord Server"
+      icon: "fab fa-discord"
+      url: "https://discord.gg/WkWfrNd7k3"
     - label: " Threadless"
       icon: "fas fa-pencil-alt"
       url: "https://pandoramic.threadless.com/"
@@ -121,7 +108,7 @@ author:
     - label: " GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/PandoramicView"
-    - label: " Instagram"
+    - label: " Personal Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/PandoramicView/"
     - label: " Goodreads"
@@ -289,6 +276,7 @@ compress_html:
   ignore:
     envs: development
 
+
 # Collections
 collections:
   hub:
@@ -308,7 +296,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: # true
+      comments: true
       share: true
       related: true
       show_date: true

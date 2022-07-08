@@ -1,5 +1,9 @@
 ---
 title: "Quick Update: Site Stuff! and stuff"
+excerpt: "What's been up since January and changes I've made to the site."
+header:
+  image: /assets/images/2022-05-25_updates_header.jpg
+  teaser: /assets/images/2022-05-25_updates_header_th.jpg
 categories:
   - blog
 tags:
