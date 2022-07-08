@@ -4,12 +4,12 @@ header:
  image: assets/images/2021-nano-header.jpg
  teaser: /assets/images/2021-nano-header_th.jpg
 categories:
-  - blog
+  - challenges
 tags:
-  - challenge
+  - challenge-postmortem
   - writing
   - NaNoWriMo
-  - review
+  - projects
 ---
 ## How'd I do?
 

@@ -2,6 +2,8 @@
 permalink: /support/
 title: "Support My Work"
 layout: single
+comments: true
+classes: wide
 ---
 Links to some places that you can support me, if you like me and the things that I do and you're in a comfortable position to do so.
 
@@ -35,3 +37,4 @@ I experience a trade-secret mix of existential dread and big warm-fuzzies.
 To be honest, it feels a little weird to accept material support from others, but I'm an idealist and I think that the economic ecosystem of patronage is a cool way to make meaningful progress past the "meaningless job for wages" stage of capitalism. 
 
 At the end of the day, all I want is the freedom to keep pursuing my projects, and support freely given is support humbly appreciated. I do my best to be frugal and manage myself well, and that's what I rely on to carry me forward.
+

@@ -4,9 +4,9 @@ header:
  image: assets/images/2021-inktober-header.jpg
  teaser: /assets/images/2021-inktober-header_th.jpg
 categories:
-  - blog
+  - challenges
 tags:
-  - challenge
+  - challenge-start
   - art
   - sketchtober
   - inktober

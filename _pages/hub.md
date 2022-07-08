@@ -6,8 +6,10 @@ collection: hub
 entries_layout: grid
 classes: wide
 ---
-
-I try to keep my content in places it makes sense. The RSS feed here is a reasonably useful overview of what I've been up to recently, but it does *not* include updates from Instagram, Pinterest, or GitHub.
+{% capture notice %}
+The RSS feed below is recent up to 1 day, but it does *not* include updates from Instagram, Pinterest, or GitHub.
+{% endcapture %}
+<div class="notice--info">{{ notice | markdownify }}</div>
 
 <!-- start sw-rss-feed code --> 
 <script type="text/javascript"> 
@@ -20,9 +22,9 @@ rssfeed_scroll="off";
 rssfeed_scroll_step="6"; 
 rssfeed_scroll_bar="on"; 
 rssfeed_target="_blank"; 
-rssfeed_font_size="16"; 
+rssfeed_font_size="14"; 
 rssfeed_font_face="Roboto"; 
-rssfeed_border="off"; 
+rssfeed_border="on"; 
 rssfeed_css_url=""; 
 rssfeed_title="on"; 
 rssfeed_title_name="Recent Updates from DeviantArt, ArtStation, Threadless, and Goodreads"; 
@@ -36,7 +38,7 @@ rssfeed_footer_color="#333";
 rssfeed_footer_bgimage=""; 
 rssfeed_item_title_length="75"; 
 rssfeed_item_title_color="#e9e9e9"; 
-rssfeed_item_bgcolor="#363245"; 
+rssfeed_item_bgcolor="443e57"; 
 rssfeed_item_bgimage=""; 
 rssfeed_item_border_bottom="off"; 
 rssfeed_item_source_icon="on"; 

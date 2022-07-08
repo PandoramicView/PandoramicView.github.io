@@ -2,15 +2,16 @@
 title: "Quick Update: Site Stuff! and stuff"
 excerpt: "What's been up since January and changes I've made to the site."
 header:
-  image: /assets/images/2022-05-25_updates_header.jpg
+  image: /assets/images/2022-05-25_updates_header_v2.jpg
   teaser: /assets/images/2022-05-25_updates_header_th.jpg
 categories:
-  - blog
+  - life
 tags:
   - Jekyll
-  - update
-  - life
+  - site update
+  - hobbies
   - site
+  - routine
 ---
 
 Hullo - along with this post, I'm pushing an update to a few parts of the site today, and it's probably as good a time as any to talk about random life stuff. It's my blog, after all.

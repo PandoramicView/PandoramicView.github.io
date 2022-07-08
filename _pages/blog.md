@@ -1,5 +1,7 @@
 ---
 permalink: /blog/
-title: "Blog"
-layout: home
+title: "Blog by Category"
+layout: categories
+entries_layout: grid
+classes: wide
 ---

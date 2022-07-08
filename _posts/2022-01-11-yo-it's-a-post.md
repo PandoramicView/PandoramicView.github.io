@@ -1,10 +1,9 @@
 ---
 title: "Yo, it's a post!"
 categories:
-  - blog
+  - life
 tags:
   - Jekyll
-  - update
   - life
 ---
 

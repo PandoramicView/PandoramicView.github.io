@@ -4,13 +4,12 @@ header:
  image: assets/images/oct-21-postmortem_header.jpg
  teaser: /assets/images/oct-21-postmortem_header_th.jpg
 categories:
-  - blog
+  - challenges
 tags:
-  - challenge
+  - challenge-postmortem
   - art
   - studies
   - anatomy
-  - review
 ---
 ## How did I do?
 
