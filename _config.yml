@@ -23,7 +23,7 @@ name                     : "Elizabeth Shaw"
 description              : "Consolidated thoughts, work, and miscellany of Elizabeth Shaw, AKA Pandoramic: artist, animator, writer, doer of tries. Enter at the risk of encountering the author."
 url                      : "https://PandoramicView.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/PandoramicView.github.io"
-repository               : # "PandoramicView/PandoramicView.github.io"
+repository               : "PandoramicView/PandoramicView.github.io"
 teaser                   : "/assets/images/default_thoughts_th.jpg"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -218,7 +218,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 8 # amount of posts to show
 paginate_path: /blog/page:num
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -298,7 +298,7 @@ defaults:
       read_time: false
       comments: true
       share: true
-      related: true
+      related: false
       show_date: true
   #_hub
   - scope:

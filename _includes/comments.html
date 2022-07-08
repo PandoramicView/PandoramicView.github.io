@@ -1,7 +1,7 @@
 <div class="page__comments">
   {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
   {% case site.comments.provider %}
-    <!-- {% when "discourse" %}
+    {% when "discourse" %}
       <h4 class="page__comments-title">{{ comments_label }}</h4>
       <section id="discourse-comments"></section>
     {% when "disqus" %}
@@ -9,7 +9,7 @@
       <section id="disqus_thread"></section>
     {% when "facebook" %}
       <h4 class="page__comments-title">{{ comments_label }}</h4>
-      <section class="fb-comments" data-href="{{ page.url | absolute_url }}" data-mobile="true" data-num-posts="{{ site.comments.facebook.num_posts | default: 5 }}" data-width="100%" data-colorscheme="{{ site.comments.facebook.colorscheme | default: 'light' }}"></section> -->
+      <section class="fb-comments" data-href="{{ page.url | absolute_url }}" data-mobile="true" data-num-posts="{{ site.comments.facebook.num_posts | default: 5 }}" data-width="100%" data-colorscheme="{{ site.comments.facebook.colorscheme | default: 'light' }}"></section>
     {% when "staticman_v2" %}
       <section id="static-comments">
         {% if site.repository and site.comments.staticman.branch %}
@@ -46,7 +46,7 @@
           <!-- Start new comment form -->
           <div id="respond" class="comment__form">
             <h2 class="title">Leave a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | relative_url }}#respond" style="display:none;">Cancel reply</a></small></h2>
-            <form id="comment-form" class="js-form" method="post" action="https://pandoramic-view-staticman.herokuapp.com/v3/entry/github/{{ site.repository }}/{{ site.staticman.branch }}/comments">
+            <form id="comment-form" class="js-form" method="post" action="{{ site.staticman.endpoint }}{{ site.repository }}/{{ site.staticman.branch }}/comments">
               <div class="form__group">
                 <label for="comment-form-name">Name
                   <input type="text" id="comment-form-name" name="fields[name]" required spellcheck="false" placeholder="Your name">
@@ -90,7 +90,7 @@
           {% if site.reCaptcha.siteKey %}<script async src="https://www.google.com/recaptcha/api.js"></script>{% endif %}
         {% endif %}
       </section>
-    <!-- {% when "staticman" %}
+    {% when "staticman" %}
       <section id="static-comments">
         {% if site.repository and site.staticman.branch %}
           </!-- Start static comments --/>
@@ -118,9 +118,9 @@
               {% endfor %}
             {% endif %}
           </div>
-          </!-- End static comments --/>
+          <!-- End static comments -->
 
-          </!-- Start new comment form --/>
+          <!-- Start new comment form -->
           <div class="page__comments-form">
             <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label | default: "Leave a Comment" }}</h4>
             <p class="small">{{ site.data.ui-text[site.locale].comment_form_info | default: "Your email address will not be published. Required fields are marked" }} <span class="required">*</span></p>
@@ -162,16 +162,16 @@
               </div>
             </form>
           </div>
-          </!-- End new comment form --/>
-        {% endif %}  -->
+          <!-- End new comment form -->
+        {% endif %}
       </section>
-    <!-- {% when "utterances" %}
+    {% when "utterances" %}
       <h4 class="page__comments-title">{{ comments_label }}</h4>
       <section id="utterances-comments"></section>
     {% when "giscus" %}
       <h4 class="page__comments-title">{{ comments_label }}</h4>
       <section id="giscus-comments"></section>
     {% when "custom" %}
-      {% include /comments-providers/custom.html %}  -->
+      {% include /comments-providers/custom.html %}
   {% endcase %}
 </div>
