@@ -7,7 +7,7 @@ entries_layout: grid
 classes: wide
 ---
 {% capture notice %}
-The RSS feed below is recent up to 1 day, but it does *not* include updates from Instagram, Pinterest, or GitHub.
+The RSS feed below is recent up to 1 day, but it does ***not*** include updates from Instagram, Pinterest, or GitHub.
 {% endcapture %}
 <div class="notice--info">{{ notice | markdownify }}</div>
 

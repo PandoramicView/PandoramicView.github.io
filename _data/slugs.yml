@@ -1,14 +1,22 @@
-# main links
-main:
-  - title: "Blog"
-    url: /blog/
-  # collection of links to my content-hosting sites
-  - title: "Everything Else"
-    url: /hub/
-  # collection of posts that outline my challenges and follow-ups at the end
-  #- title: "Challenges"
-  #  url: /challenges/
-  - title: "About"
-    url: /about/
-  - title: "Support"
-    url: /support/
+# slugs
+
+about:
+  name: "About"
+
+support:
+  name: "Support"
+
+404:
+  name: "Not found"
+
+sitemap:
+  name: "Sitemap"
+
+tag:
+  name: "Tags"
+
+blog:
+  name: "Blog"
+
+hub:
+  name: "Hub"
