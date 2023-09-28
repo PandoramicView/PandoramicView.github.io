@@ -93,6 +93,9 @@ author:
     - label: " Artstation"
       icon: "fab fa-artstation"
       url: "https://www.artstation.com/pandoramic"
+    - label: "Substack Blog"
+      icon: "fa-solid fa-bookmark"
+      url: "https://pandoramicview.substack.com/"
     - label: " Art Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/pandoramicart/"
@@ -183,6 +186,8 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - .obsidian # ignore Obsidian's config - THIS IS A TEST
+  - _drafts # ignore the drafts folder - THIS IS A TEST
 keep_files:
   - .git
   - .svn
