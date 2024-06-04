@@ -126,9 +126,12 @@ author:
     - label: " PayPal"
       icon: "fab fa-paypal"
       url: "https://paypal.me/pandoramic?country.x=US&locale.x=en_US"
-    - label: " Wishlist"
+    - label: " Buy Me a Book"
       icon: "fab fa-amazon"
       url: "https://www.amazon.com/hz/wishlist/ls/LK6RI6DYAFKS?ref_=wl_share"
+    - label: " Wishlist"
+      icon: "fab fa-amazon"
+      url: "https://www.amazon.com/hz/wishlist/ls/101XZNXUPO2DN?ref_=wl_share"
 
 
 # Site Footer
